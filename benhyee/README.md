@@ -1,4 +1,3 @@
-image-of-the-day
+Benjamin Yee Personal Website
 ================
-
-Example application for beanstalk deployment blog
+Webpage using Django and AWS Beanstalk hosting
