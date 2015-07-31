@@ -1,22 +1,23 @@
-{% extends "base.html" %}
 
-{% block extra_css %}
-<style>
-.bigpic {
-  background: url({{ image.img.url }}) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-</style>
-{% endblock %}
+{% extends "base.html" %}
 {% block content %}
-<div class="row">
-  <div class="col-md-6 col-sm-12">
-    <h1>{{ image.name }}</h1>
-    <p>{{ image.tagline }}</p>
-  </div>
+
+<!-- <div class="col-sm-8">
+<iframe class="col-lg-2 col-md-6 col-sm-12 col-xs-12" src="http://www.youtube.com/embed/KUcmU9eZOYk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+</div> -->
+
+<div class="column col-sm-3"> 
+	{% include "ayee/sidebar.html" %}
+</div>
+<!-- main -->
+<div class="column col-sm-9">
+{% include "ayee/aboutme.html" %}
+	{% include "ayee/projects.html" %}
+
+				<h6 class = "whiteText">
+				This website was created using Django, Bootstrap, and hosted on AWS elastic beanstalk.
+			</h6>
 </div>
 
+<!-- /main -->
 {% endblock %}
