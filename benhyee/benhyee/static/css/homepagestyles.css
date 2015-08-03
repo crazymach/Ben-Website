@@ -55,7 +55,7 @@ a {
   top: 0;
   position: fixed;
 
-  background:url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/IMG_0001.JPG') no-repeat center center fixed;
+  background:url(https://s3-us-west-2.amazonaws.com/benjaminpictures/bishops+peak.jpg) no-repeat center center fixed;
   background-size:cover;
 
 }
