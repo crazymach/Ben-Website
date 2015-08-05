@@ -59,7 +59,13 @@ a {
   background-size:cover;
 
 }
+.benpicture{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: inline-block;
 
+}
 .divider {
   margin-top:5px;
 }
@@ -73,10 +79,49 @@ a {
   width:70px;
 }
 
-
+#sidebar, #sidebar a {
+  color:#ffffff;
+  background-color:transparent;
+  text-shadow:1px 0 1px #888888;
+}
+#sidebar a.logo {
+  display:block;
+  padding:3px;
+  background-color:#fff;
+  color:#777777;
+  height:40px;
+  width:40px;
+  margin:15px;
+  font-size:26px;
+  font-weight:700;
+  text-align:center;
+  text-decoration:none;
+  text-shadow:0 0 0;
+}
+#sidebar-footer {
+  position:absolute;bottom:5px;
+}
 #footer {
   margin-bottom:20px;
 }
+
+/* center and adjust the sidebar contents on smaller devices */
+@media (max-width: 768px) {
+  #sidebar,#sidebar a.logo {
+    text-align:center;
+    margin:0 auto;
+    margin-top:10px;
+    font-size:26px;
+  }
+  #sidebar a.logo {
+    font-size:50px;
+    height:75px;
+    width:75px;
+    margin-bottom:30px;
+  }
+}
+
+
 
 .jumbotron {
   background-color:transparent;
@@ -142,4 +187,42 @@ background-color:rgba(100,100,100,0.9);
   opacity:0.7;
   padding: 25px; /* pushes content off the edge of the canvas */
   box-sizing: border-box; /* includes padding in the width */
+}
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.featurette-item > i:hover {
+  font-size: 68px;
+}
+.featurette-item-plus > i {
+  display: inline-block;
+  font-size: 30px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+
+.featurette-item-skills> i {
+  font-size: 56px;
+}
+
+.featurette-item-skills > i:hover {
+  font-size: 68px;
+}
+  
+.projPicture{
+  width:100%;
+  height:100%;
 }
