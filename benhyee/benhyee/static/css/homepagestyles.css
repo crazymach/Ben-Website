@@ -64,16 +64,25 @@ a {
 
 }
 .benpicture{
-  width: 140px;
-  height: 140px;
+  width:inherit;
+  height:200px;
+  max-height: 100%;
+  max-width: 100%;
   border-radius: 50%;
   display: inline-block;
+  align: top;
 
 }
 .divider {
   margin-top:5px;
 }
-
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 #main {
   background-color:#fefefe;
 }
@@ -163,7 +172,23 @@ background-color:rgba(100,100,100,0.9);
   vertical-align: middle; 
   text-align: center;
 }
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
 
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .featurette-item > i:hover {
   font-size: 68px;
 }
@@ -210,3 +235,9 @@ background-color:rgba(100,100,100,0.9);
   display: inline-block;
   padding: 8px;
 }
+
+ 
+
+}
+
+
