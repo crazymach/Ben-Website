@@ -38,16 +38,6 @@ a {
   padding: 0px;
 }
 
-.box {
-  bottom: 0; /* increase for footer use */
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-image:url('http://lorempixel.com/1024/760/nature/3/');
-  background-size:cover;
-  background-attachment:fixed;
-}
 
 .divider {
   margin-top:32px;
@@ -157,4 +147,29 @@ small.text-muted {
 .featurette-item > i:hover {
   font-size: 68px;
 }
-
+a.hovertext 
+{
+    position: relative;
+    width: 500px;
+    text-decoration: none !important;
+    text-align: center;
+}
+a.hovertext:after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0.5em 20px;
+  width: 460px;
+  background: rgba(0,0,0,0.8);
+  text-decoration: none !important;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+}
+  a.hovertext:hover:after, a.hovertext:focus:after {
+    opacity: 1.0;
+  }

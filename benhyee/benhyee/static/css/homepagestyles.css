@@ -4,7 +4,7 @@
 /* custom template */
 html, body, p, a {
   height: 100%;
-  font-family: 'Lato', Arial,sans-serif;
+  font-family: 'Lato',sans-serif;
   font-weight:300;
 }
 p {
@@ -61,6 +61,7 @@ a {
   position: fixed;
   background:url(https://s3-us-west-2.amazonaws.com/benjaminpictures/bishops+peak.jpg) no-repeat center center fixed;
   background-size:cover;
+  z-index: -2;
 
 }
 .benpicture{

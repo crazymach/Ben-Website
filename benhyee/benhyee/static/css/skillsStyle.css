@@ -24,66 +24,7 @@ p.boldText{
   font-weight: 700;
 }
 
-/* Subprojects */
-#me294{
-    background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/Prosthetic-arm.svg') no-repeat center center;
-  background-size: 50% 50%;
-  /* yellow */
-background-color:#FDFD96;
-}
-#bioe374{
-	
-    background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/xray1.svg') no-repeat center center;
-  background-size: 50% 50%;
-  /* red */
-  background-color:#FF6961;
-}
-#me382{
-		background-image: url('../images/projBone.jpg');
-    background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/cells1.svg') no-repeat center center;
-  background-size: 50% 50%;
-  /* orange */
-  background-color: #FFB347;
-}
-#cs235{
-  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/robot1.svg') no-repeat center center;
-  background-size: 50% 50%;
-    /* green */
-  background-color:#77DD77;
 
-}
-
-#me210{
-  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/SumoWrestlingTopDown.svg') no-repeat center center;
-  background-size: 50% 50%;
-  /* pink */
-  background-color: #DEA5A4;
-}
-#iosProx{
-    background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/Proximity+Logo.svg') no-repeat center center;
-  background-size: 50% 50%;
-  /* blue */
-  background-color: #AEC6CF;
-}
-#iosInsoles{
-  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/bluetooth_insoles-3.svg') no-repeat center center;
-  background-size: 50% 50%;
-  /* violet */
-  background-color: #CB99C9;
-}
-#iosInsoles2{
-  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/phone1.svg') no-repeat center center;
-  background-size: 50% 50%;
-  /* grey */
-  background-color: #CFCFC4;
-}
-#projPiano{
-  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/piano1.svg') no-repeat center center;
-  background-size: 50% 50%;
-  /* dark blue */
-  background-color: #779ECB;
-}
-/* columns of same height styles */
 
 .row-full-height {
   height: 100vh;
@@ -168,6 +109,8 @@ background-color:#FDFD96;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
+
 
 #iosProx:hover figcaption{
 	opacity:1;
