@@ -57,7 +57,7 @@ body {
     padding: .5em .75em;
     text-align: center;
     /* Color fallback */
-    color: #5F5F5F;
+    color: #fff;
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
@@ -87,7 +87,7 @@ body {
     right: .125em;
     bottom: .125em;
     left: .125em;
-    background-color: #000;
+    background-color: #5F5F5F;
 }
 
 /* Change the background position to display letter when the black zone isn't here */
@@ -116,7 +116,7 @@ body {
     background-image: url(http://i.imgur.com/KCa8KHY.png);
 }
 
-.clip-text_tree {
+.clip-text_three {
     background-image: url(http://i.imgur.com/IuijDCu.png);
 }
 
