@@ -127,6 +127,13 @@ small.text-muted {
   font-family:'Lato',courier,courier-new,monospace;
 }
 
+.featurette-awards {
+  text-align: center;
+  
+
+}
+
+
 .featured{
   padding:0px;
 }
