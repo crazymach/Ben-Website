@@ -29,7 +29,7 @@ body {
 }
 
 .title {
-    font-size: 2em;
+    font-size: relative;
     position: relative;
     margin: 0 auto 1em;
     padding: 1em 1em .25em 1em;
@@ -38,18 +38,18 @@ body {
 }
 .title:after {
     position: absolute;
-    top: 100%;
-    left: 50%;
-    width: 240px;
-    height: 4px;
-    margin-left: -120px;
+    top: relative;
+    left: relative;
+    width: relative;
+    height: relative;
+    margin-left: relative;
     content: '';
     background-color: #fff;
 }
 
 /* Clip text element */
 .clip-text {
-    font-size: 8em;
+    font-size: 6em;
     font-weight: bold;
     line-height: 1;
     position: relative;
