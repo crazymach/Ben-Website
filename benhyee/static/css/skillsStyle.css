@@ -1,0 +1,139 @@
+/* Fonts */
+p.largeFont{
+  font-size:20px;
+}
+p.headerFont{
+  font-size:12px;
+}
+p.regularFont{
+  font-size:5px;
+}
+p.smallFont{
+  font-size:3px;
+}
+p.skinnyText{
+  font-weight: 100;
+}
+p.inline{
+  display:inline;
+}
+p.normalText{
+  font-weight: 300;
+}
+p.boldText{
+  font-weight: 700;
+}
+
+
+
+.row-full-height {
+  height: 100vh;
+}
+.col-full-height {
+  height: 34vh;
+  vertical-align: middle;
+}
+.row-same-height {
+  display: table;
+  width: 100%;
+  /* fix overflow */
+  table-layout: fixed;
+}
+.projectBlock figcaption {
+	background: rgba(0,0,0,0.8);
+	color: black;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+  padding: 20px 20px 20px 20px;
+
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	vertical-align: middle;
+}
+
+#me294:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#cs235:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#bioe374:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#projPiano:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#me210:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#me382:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+#iosProx:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#iosInsoles:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#iosInsoles2:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}

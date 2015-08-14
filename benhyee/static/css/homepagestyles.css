@@ -1,0 +1,292 @@
+/* move special fonts to HTML head for better performance */
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+/* custom template */
+html, body, p, a {
+  height: 100%;
+  font-family: 'Lato',sans-serif;
+  font-weight:300;
+}
+p {
+    margin-top: 49px;
+    margin-bottom: 51px;
+    margin-right: 49px;
+    margin-left: 51px;
+}
+h1,h2,h4,h5,.lead,.btn,.navbar a {
+  font-weight:200;
+  font-family:'Lato',Arial,sans-serif;
+  letter-spacing:2px;
+}
+
+
+
+.abouth4{
+  display:inline-block;
+}
+a {
+  color:#222222;
+}
+
+.wrapper, .row {
+  height: 100%;
+  margin-left:5;
+  margin-right:5;
+}
+
+.wrapper:before, .wrapper:after,
+.column:before, .column:after {
+  content: "";
+  display: table;
+}
+
+.wrapper:after,
+.column:after {
+  clear: both;
+}
+
+.column {
+  height: 100%;
+  overflow: auto;
+  *zoom:1;
+}
+
+.column .padding {
+  padding: 0px;
+}
+
+.box {
+  bottom: 0; /* increase for footer use */
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+  background:url(https://s3-us-west-2.amazonaws.com/benjaminpictures/bishops+peak.jpg) no-repeat center center fixed;
+  background-size:cover;
+  z-index: -2;
+
+}
+.benpicture{
+  width:inherit;
+  height:200px;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+  display: inline-block;
+  align: top;
+
+}
+.divider {
+  margin-top:5px;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#main {
+  background-color:#fefefe;
+}
+#main .img-circle {
+  margin-top:18px;
+  height:70px;
+  width:70px;
+}
+.polypic{
+  border-radius:50%;
+  width: 25%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.jumbotron {
+  background-color:transparent;
+}
+.label-default {
+  background-color:#dddddd;
+}
+.page-header {
+  border-top:1px solid #eeeeee;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+.page-break{
+  border-top:1px solid #eeeeee;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+small.text-muted {
+  font-family:'Lato',courier,courier-new,monospace;
+}
+
+.featurette-awards {
+  text-align: center;
+  
+
+}
+
+
+.featured{
+  padding:0px;
+}
+.featurette {
+  background: #31314A;
+  color: #00CC66;
+}
+.featurette-white {
+  background: #fff;
+  color: #ffffff;
+}
+.featurette-orange{
+  background-color:rgba(100,100,100,0.9);
+    color: #ffffff;
+    margin: auto;
+    opacity: 30%; 
+}
+.featurette-clear{
+
+  color:#fff;
+  margin-right:10px;
+  margin-left:10px;
+
+}
+
+.featurette-item {
+  margin-bottom: 15px;
+}
+.featurette-project{
+  background-color:rgba(100,100,100,0.9);
+  color: #ffffff;
+  margin:auto;
+  
+
+
+
+}
+.blackText{
+  color:black;
+}
+.whiteText{
+  color:#fff;
+}
+.linkText{
+  color:#ADD8E6;
+}
+.grey-back{
+background-color:rgba(100,100,100,0.9);
+}
+#canvas {
+  background-color: #B8B8B8; /* change this to your preferred color */
+  opacity:0.7;
+  padding: 25px; /* pushes content off the edge of the canvas */
+  box-sizing: border-box; /* includes padding in the width */
+}
+.featurette-title{
+    background-color:rgba(100,100,100,0.9);
+    color: #ffffff;
+    
+
+
+}
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  right:0;
+
+}
+.featurette-item > i:hover {
+  font-size: 68px;
+}
+.featurette-item-plus > i {
+  display: inline-block;
+  font-size: 30px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.bigletters{
+  font-weight:600;
+  font-family:'Lato',Arial,sans-serif;
+  letter-spacing:2px;
+}
+
+.featurette-item-skills> i {
+  font-size: 56px;
+}
+
+.featurette-item-skills > i:hover {
+  font-size: 68px;
+}
+  
+.projPicture{
+  width:10%;
+  height:10%;
+  text-align: right;
+ 
+}
+.aboutmelink {
+  -webkit-border-top-left-radius:42px;
+  -moz-border-radius-topleft:42px;
+  border-top-left-radius:42px;
+  -webkit-border-top-right-radius:42px;
+  -moz-border-radius-topright:42px;
+  border-top-right-radius:42px;
+  -webkit-border-bottom-right-radius:42px;
+  -moz-border-radius-bottomright:42px;
+  border-bottom-right-radius:42px;
+  -webkit-border-bottom-left-radius:42px;
+  -moz-border-radius-bottomleft:42px;
+  border-bottom-left-radius:42px;
+  border: 2px solid #afafaf;
+  height:39px;
+  width:39px;
+  text-align:center;
+  display: inline-block;
+  padding: 8px;
+}
+
+ 
+
+
+
+
