@@ -49,7 +49,7 @@ body {
 
 /* Clip text element */
 .clip-text {
-    font-size: 6em;
+    font-size: 4em;
     font-weight: bold;
     line-height: 1;
     position: relative;
