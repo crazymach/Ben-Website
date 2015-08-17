@@ -79,7 +79,7 @@ body {
     background-image: inherit;
 }
 
-/* Text Background (black zone) */
+/* Text Background (gray zone) */
 .clip-text:after {
     position: absolute;
     z-index: -1;
@@ -90,7 +90,7 @@ body {
     background-color: #5F5F5F;
 }
 
-/* Change the background position to display letter when the black zone isn't here */
+/* Change the background position to display letter when the gray zone isn't here */
 .clip-text--no-textzone:before {
     background-position: -.25em 0;
 }
