@@ -163,8 +163,8 @@ small.text-muted {
   margin-bottom: 15px;
 }
 .featurette-project{
-  background-color:rgba(100,100,100,0.9);
-  color: #ffffff;
+  background-color:rgba(255, 255, 255,0.6);
+  color: #000000;
   margin:auto;
   
 
@@ -178,7 +178,7 @@ small.text-muted {
   color:#fff;
 }
 .linkText{
-  color:#ADD8E6;
+  color:#0000FF;
 }
 .grey-back{
 background-color:rgba(100,100,100,0.9);
