@@ -25,7 +25,7 @@ SECRET_KEY = '%t@l1q=xy7gf%(x@ix$e!k97)$n0b=umx@^)e5v8d2if+3)-s!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['benhyee.com']
 
 
 # Application definition
